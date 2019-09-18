@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(robert.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
+
+.fp {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 800px;
+  height: 810px;
+  box-shadow: 0 0 10px 5px black;
+}
+
+.avatar {
+  font-size: 50px;
+  background: #5a5a5a;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.fp h2 {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  letter-spacing: 5px;
+}
+
+.box-form {
+  color: white;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* margin-bottom: 15px; */
+  /* border-bottom: 2px solid white;
+  padding: 8px 0; */
+}
+
+/* .box-form input {
+  width: 50%;
+  padding: 0 10px;
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+} */
+
+.box-form input::placeholder {
+  color: black;
+}
+
+.btn-submit {
+  width: 100%;
+  background: none;
+  padding: 10px;
+  border: 1px solid white;
+  font-size: 18px;
+  letter-spacing: 5px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-submit:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
